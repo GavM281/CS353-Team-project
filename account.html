@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="NavBar">
+        <h1 onclick="window.location='home.html';" style="padding-left: 20px;">UI Demo</h1>
+        <div onclick="window.location='account.html';" id="accountLink"><img src="images/prof.png" style="width:50px;height:50px;"></div>
+        <div id="Search">
+            <form id="searchForm">
+                <input type="text" id="sInput" placeholder="Search for an item" name="searchInput">
+                <button type="submit" id="sButton"><img src="images/sicon.png" style="width:50px;height:50px;"></button>
+            </form>
+        </div>
+    </div>
+
+    <div id="a_content_list">
+        <table id="a_content">
+            <tr class="a_content-row">
+                <div onclick="window.location='item.html';" class="item">
+                </div>
+                <div class="itemX" id="itemX1"> <img src="images/ex.jpeg" alt="Girl in a jacket" style="width:25px;height:25px;"> </div>
+                <div class="itemE" id="itemE1"> <img src="images/up.jpeg" alt="Girl in a jacket" style="width:25px;height:25px;"> </div>
+            </tr>
+        </table>
+    </div>
+
+    <div id="addItem" onclick="display()">
+
+    </div>
+
+    <div id="propertyFormBack">
+    <form class="form-horizontal" id="propertyForm">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>Property form</legend>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="itemVal1">Val1</label>  
+          <div class="col-md-4">
+          <input id="itemVal1" name="itemVal1" type="text" placeholder="..." class="form-control input-md">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="itemVal2">Val2</label>  
+          <div class="col-md-4">
+          <input id="itemVal2" name="itemVal2" type="text" placeholder="..." class="form-control input-md">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="itemVal3">Val3</label>  
+          <div class="col-md-4">
+          <input id="itemVal3" name="itemVal3" type="text" placeholder="..." class="form-control input-md">
+            
+          </div>
+        </div>
+        
+        <!-- Button (Double) -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="itemValS"></label>
+          <div class="col-md-8">
+            <button id="itemValS" name="itemValS" class="btn btn-success">Submit</button>
+            <button id="itemValS" name="itemValS" class="btn btn-danger">Cancel</button>
+          </div>
+        </div>
+        
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body{
+    overflow: hidden;
+}
+
+.NavBar{
+    background-color: white;
+    /*text-align: center;*/
+    height: 80px;
+    border: 3px solid black;
+}
+
+#Search{
+    border: 3px solid black;
+    width: 300px;
+}
+
+#sButton{
+    float: right;
+    border: none;
+    width: 17.6%;
+    height: 50px;
+}
+
+#sInput{
+    border: none;
+    border-right: 3px solid black;
+    width: 80%;
+    height: 50px;
+}
+
+.SideMenu{
+    display: inline-block;
+    /*display: inline;*/
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border: 3px solid black;
+    border-top: 0px solid black;
+}
+
+#content_list{
+    position: absolute;
+    width: 75%;
+    left: 350px;
+    top: 120px;
+}
+
+#a_content_list{
+    position: absolute;
+    width: 75%;
+    left: 12.5%;
+    top: 120px;
+}
+
+.item{
+    border: 3px solid black;
+    
+    height: 200px;
+}
+
+.sideInput{
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+
+#accountLink{
+    position: absolute;
+    right:20px;
+    top: 25px;
+    border: 3px solid black;
+}
+
+#Search{
+    position: absolute;
+    right:100px;
+    top: 25px;
+}
+
+/* item.html below */
+
+#itemBody{
+    border: 3px solid black;
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    margin: -25px 0 0 -600px;
+}
+
+#itemPicture{
+    border: 3px solid black;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin: -25px 0 0 -200px;
+}
+
+/*account*/
+
+.itemX, .itemE{
+    /*background-color: rgb(155, 1, 1);*/
+    width: 25px;
+    height: 25px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: absolute;
+    right: 2px;
+    top: 2px
+}
+
+.itemE{
+    /*background-color: rgb(0, 0, 160);*/
+    position: absolute;
+    right: 2px;
+    top: 29px
+}
+
+#addItem{
+    border: 3px solid black;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+
+#propertyForm{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border: 2px solid gray;
+}

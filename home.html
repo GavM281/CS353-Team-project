@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="NavBar">
+        <h1 onclick="window.location='home.html';" style="padding-left: 20px;">UI Demo</h1>
+        <div onclick="window.location='account.html';" id="accountLink"><img src="images/prof.png" style="width:50px;height:50px;"></div>
+        <div id="Search">
+            <form id="searchForm">
+                <input type="text" id="sInput" placeholder="Search for an item" name="searchInput">
+                <button type="submit" id="sButton"><img src="images/sicon.png" style="width:50px;height:50px;"></button>
+            </form>
+        </div>
+    </div>
+    <div class="SideMenu">
+        <form id="sideForm">
+            <div class="sideInput">
+                <input type="radio" id="val1" name="val_one" value="VAL1">    <label for="html">Val1</label><br>
+            </div>
+            <div class="sideInput">
+                <input type="radio" id="val2" name="val_two" value="VAL2">    <label for="html">Val2</label><br>
+            </div>
+            <div class="sideInput">
+                <input type="radio" id="val3" name="val_three" value="VAL3">  <label for="html">Val3</label><br>
+            </div>
+            <div class="sideInput">
+                <input type="radio" id="val4" name="val_four" value="VAL4">   <label for="html">Val4</label><br>
+            </div>
+        </form>
+    </div>
+
+    <div id="content_list">
+        <table id="content">
+            <tr class="content-row">
+                <div onclick="window.location='item.html';" class="item"></div>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
